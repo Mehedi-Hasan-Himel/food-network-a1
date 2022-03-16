@@ -1,0 +1,63 @@
+/* Google fonts link start */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+/* Google fonts link end */
+
+/* Common Style Start */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.btn {
+  width: 10em;
+  height: 4em;
+  background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  border-radius: 20rem;
+  border: none;
+  color: whitesmoke;
+  font-size: 1.3rem;
+  letter-spacing: 0.05rem;
+}
+.btn:hover {
+  background: linear-gradient(88.33deg, #ff1e1e -7.64%, #fba24f 145.94%);
+}
+/* Common Style End */
+
+/* Color Style Start */
+
+.orange-color {
+  color: orange;
+}
+
+/* Color Style End */
+
+/* Section 1 / Intro Section Start */
+.half-width {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  /* justify-content: space-around; */
+}
+.text-half {
+  flex-basis: 50%;
+  margin-left: 3rem;
+  align-self: center;
+  font-size: large;
+}
+.text-half h2 {
+  font-size: 60px;
+  line-height: 4.5rem;
+}
+.text-half p {
+  padding-top: 1rem;
+}
+.text-half button {
+  margin-top: 2rem;
+}
+.img-half img {
+  flex-basis: 50%;
+  /* width: 658.26px; */
+  /* height: 747.23px; */
+}
+/* Section 1 / Intro Section End */
