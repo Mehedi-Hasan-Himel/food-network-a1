@@ -22,9 +22,9 @@
 .btn:hover {
   background: linear-gradient(88.33deg, #ff1e1e -7.64%, #fba24f 145.94%);
 }
-a{
-   text-decoration: none;
-   color: whitesmoke;
+a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 /* Common Style End */
 
@@ -57,9 +57,6 @@ a{
 .intro__text-half button {
   margin-top: 2rem;
 }
-/* .intro__img-half img {
-  flex-basis: 50%;
-} */
 /* Section 1 / Intro Section End */
 
 /* Section 2 / About Section Start */
@@ -73,8 +70,6 @@ a{
   align-self: end;
 }
 .about__img-half img {
-  /* padding-left: 99px; */
-  /* padding-right: 199px; */
   width: 338px;
   height: 536px;
 }
@@ -87,7 +82,7 @@ a{
 }
 
 .about__text-half h2 {
-  font-size: 60px;
+  font-size: 40px;
   line-height: 4.5rem;
 }
 .about__text-half p {
@@ -99,3 +94,72 @@ a{
 }
 
 /* Section 2 / About Section End */
+
+/* Section 3 / Recipes Section Start */
+
+#recipes {
+  height: 80vh;
+  background-color: rgba(238, 236, 236, 0.686);
+}
+#recipe-intro {
+  margin-top: 3rem;
+  text-align: center;
+}
+#recipe-intro h2 {
+  font-size: 40px;
+}
+#recipe-intro p {
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+#recipe-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+#recipe-cards .single-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+#recipe-cards .single-card img {
+  width: 337px;
+  height: 256px;
+  border-radius: 2rem;
+}
+#recipe-cards .single-card p {
+  width: 337px;
+}
+/* Section 3 / Recipes Section End */
+
+/* Section 4 / Network Section Start */
+#network {
+   margin-top: 5rem;
+   margin-bottom: 5rem;
+   padding: 1rem;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-left: 10rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+.single-network {
+  padding: 1rem;
+}
+.single-network h3 {
+  font-size: 50px;
+}
+/* Section 4 / Network Section End */
+
+
+   /* Section 5 / footer Section Start  */
+   footer{
+      text-align: center;
+      background-color: black;
+      color: whitesmoke;
+      padding: 5rem;
+   }
+   /* Section 5 / footer Section End  */
