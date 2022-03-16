@@ -10,8 +10,8 @@
   font-family: "Poppins", sans-serif;
 }
 .btn {
-  width: 10em;
-  height: 4em;
+  width: 15rem;
+  height: 4rem;
   background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
   border-radius: 20rem;
   border: none;
@@ -21,6 +21,10 @@
 }
 .btn:hover {
   background: linear-gradient(88.33deg, #ff1e1e -7.64%, #fba24f 145.94%);
+}
+a{
+   text-decoration: none;
+   color: whitesmoke;
 }
 /* Common Style End */
 
@@ -36,28 +40,62 @@
 .half-width {
   display: flex;
   height: 100vh;
-  flex-direction: row;
-  /* justify-content: space-around; */
 }
-.text-half {
+.intro__text-half {
   flex-basis: 50%;
   margin-left: 3rem;
   align-self: center;
   font-size: large;
 }
-.text-half h2 {
+.intro__text-half h2 {
   font-size: 60px;
   line-height: 4.5rem;
 }
-.text-half p {
+.intro__text-half p {
   padding-top: 1rem;
 }
-.text-half button {
+.intro__text-half button {
   margin-top: 2rem;
 }
-.img-half img {
+/* .intro__img-half img {
   flex-basis: 50%;
-  /* width: 658.26px; */
-  /* height: 747.23px; */
-}
+} */
 /* Section 1 / Intro Section End */
+
+/* Section 2 / About Section Start */
+#about {
+  background: url(/img/about-bg.jpg);
+  display: flex;
+  height: 75vh;
+  justify-content: space-around;
+}
+.about__img-half {
+  align-self: end;
+}
+.about__img-half img {
+  /* padding-left: 99px; */
+  /* padding-right: 199px; */
+  width: 338px;
+  height: 536px;
+}
+
+.about__text-half {
+  flex-basis: 50%;
+  margin-right: 3rem;
+  align-self: center;
+  font-size: large;
+}
+
+.about__text-half h2 {
+  font-size: 60px;
+  line-height: 4.5rem;
+}
+.about__text-half p {
+  padding-top: 1rem;
+  width: 30em;
+}
+.about__text-half button {
+  margin-top: 5rem;
+}
+
+/* Section 2 / About Section End */
