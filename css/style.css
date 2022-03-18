@@ -61,7 +61,7 @@ a {
 
 /* Section 2 / About Section Start */
 #about {
-  background: url(/img/about-bg.jpg);
+  background: url(img/about-bg.jpg);
   display: flex;
   height: 75vh;
   justify-content: space-around;
@@ -136,9 +136,9 @@ a {
 
 /* Section 4 / Network Section Start */
 #network {
-   margin-top: 5rem;
-   margin-bottom: 5rem;
-   padding: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 1rem;
   display: flex;
   width: 80%;
   justify-content: space-between;
@@ -154,12 +154,12 @@ a {
 }
 /* Section 4 / Network Section End */
 
+/* Section 5 / footer Section Start  */
+footer {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  padding: 5rem;
+}
+/* Section 5 / footer Section End  */
 
-   /* Section 5 / footer Section Start  */
-   footer{
-      text-align: center;
-      background-color: black;
-      color: whitesmoke;
-      padding: 5rem;
-   }
-   /* Section 5 / footer Section End  */
