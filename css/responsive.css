@@ -1,27 +1,153 @@
- /* CSS Breaking Point. */
+/* CSS Breaking Point. */
 
-/* Mobile devices Layout: 320px to 480px*/
+/* Mobile devices Layout: 320px to 480px Start*/
 
 @media (min-width: 320px) and (max-width: 480px) {
+  /* intro section start */
+  .intro {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 3rem;
+  }
+  .intro__img-img {
+    width: 80vw;
+    height: 60vh;
+  }
+  .intro__text {
+    margin-left: 0;
+  }
+  .intro__text h1 {
+    font-size: 34px;
+    line-height: 3rem;
+    text-align: center;
+  }
+  .intro__text p {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  /* intro section end */
 
+  /* about section Start */
+  .about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    background: none;
+  }
+  .about__img-img {
+    width: 80vw;
+    height: 60vh;
+  }
+  .about__text {
+    margin-left: 0;
+  }
+  .about__text h1 {
+    font-size: 34px;
+    line-height: 3rem;
+    text-align: center;
+  }
+  .about__text p {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  /* about section End */
+
+  /* Recipes Start */
+  #recipes {
+    margin-top: 18rem;
+  }
+  #recipe-intro p {
+    width: 90%;
+  }
+  #recipe-cards {
+    grid-template-columns: 12fr;
+    grid-row-gap: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Recipes End */
 }
+/* Mobile devices Layout: 320px to 480px End*/
 
-
-
-/* iPads, Tablets Layout: 481px to 768px */
+/* iPads, Tablets Layout: 481px to 768px start*/
 
 @media (min-width: 481px) and (max-width: 768px) {
+  /* intro section start */
+  .intro {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 3rem;
+  }
+  .intro__text h1 {
+    line-height: 4rem;
+    text-align: center;
+  }
 
+  /* intro section end */
+
+  /* about start */
+  .about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    background: none;
+  }
+  /* about end */
+
+  /* Recipes Start */
+  #recipes {
+    margin-top: 25rem;
+  }
+  #recipe-intro p {
+    width: 90%;
+  }
+  #recipe-cards {
+    grid-template-columns: 12fr;
+    grid-row-gap: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Recipes End */
 }
+/* iPads, Tablets Layout: 481px to 768px end*/
 
-/* Small screens, laptops Layout: 769px to 1024px */
-
+/* Small screens, laptops Layout: 769px to 1024px start*/
 @media (min-width: 769px) and (max-width: 1024px) {
-
+  .intro {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+  }
+  .intro__text h1 {
+    font-size: 40px;
+    line-height: 3.5rem;
+  }
+  .intro__img-img {
+    width: 458.26px;
+    height: 547.23px;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+  }
+  .about__text h1 {
+    font-size: 40px;
+    line-height: 3.5rem;
+  }
 }
+/* Small screens, laptops Layout: 769px to 1024px end*/
 
-/* Desktops, large screens: 1025px — 1200px */
+/* Desktops, large screens: 1025px — 1200px start*/
 
 @media (min-width: 1025px) and (max-width: 1200px) {
-
+  .intro__text h1 {
+    font-size: 40px;
+    line-height: 3.5rem;
+  }
+  .about__text h1 {
+    font-size: 40px;
+    line-height: 3.5rem;
+  }
 }
+/* Desktops, large screens: 1025px — 1200px end*/
