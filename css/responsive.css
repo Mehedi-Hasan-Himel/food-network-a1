@@ -121,7 +121,9 @@
 
   /* network start */
   #network {
-    margin: 40rem 5rem;
+    margin-top: 40rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     padding-left: 20rem;
     padding-right: 20rem;
   }
@@ -129,7 +131,6 @@
     margin-right: 4rem;
   }
   /* network end */
-
 }
 /* iPads, Tablets Layout: 481px to 768px end*/
 
@@ -172,7 +173,9 @@
 
   /* network start */
   #network {
-    margin: 40rem 5rem;
+    margin-top: 40rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     padding-left: 20rem;
     padding-right: 20rem;
   }
@@ -202,7 +205,10 @@
   }
   /* network start */
   #network {
-    margin: 38rem 5rem;
+    margin-top: 38rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
     padding-left: 20rem;
     padding-right: 20rem;
   }
