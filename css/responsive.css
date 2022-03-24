@@ -65,8 +65,17 @@
     padding-left: 0;
     padding-right: 0;
   }
-
   /* Recipes End */
+
+  /* network start */
+  #network {
+    margin-top: 70rem;
+    flex-direction: column;
+  }
+  .network__item {
+    margin-top: 2rem;
+  }
+  /* network end */
 }
 /* Mobile devices Layout: 320px to 480px End*/
 
@@ -103,18 +112,30 @@
     width: 90%;
   }
   #recipe-cards {
-    grid-template-columns: 12fr;
+    grid-template-columns: 6fr 6fr;
     grid-row-gap: 1rem;
     padding-left: 0;
     padding-right: 0;
   }
-
   /* Recipes End */
+
+  /* network start */
+  #network {
+    margin: 40rem 5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+  .network__item {
+    margin-right: 4rem;
+  }
+  /* network end */
+
 }
 /* iPads, Tablets Layout: 481px to 768px end*/
 
 /* Small screens, laptops Layout: 769px to 1024px start*/
 @media (min-width: 769px) and (max-width: 1024px) {
+  /* intro start */
   .intro {
     display: grid;
     grid-template-columns: 8fr 4fr;
@@ -127,6 +148,9 @@
     width: 458.26px;
     height: 547.23px;
   }
+  /* intro End */
+
+  /* about start */
   .about {
     display: grid;
     grid-template-columns: 8fr 4fr;
@@ -135,6 +159,27 @@
     font-size: 40px;
     line-height: 3.5rem;
   }
+  /* about End */
+
+  /* recipes start */
+  #recipe-cards {
+    grid-template-columns: 6fr 6fr;
+    padding-left: 0;
+    padding-right: 0;
+    row-gap: 2rem;
+  }
+  /* recipes end */
+
+  /* network start */
+  #network {
+    margin: 40rem 5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+  .network__item {
+    margin-right: 4rem;
+  }
+  /* network end */
 }
 /* Small screens, laptops Layout: 769px to 1024px end*/
 
@@ -149,5 +194,21 @@
     font-size: 40px;
     line-height: 3.5rem;
   }
+  #recipe-cards {
+    grid-template-columns: 6fr 6fr;
+    padding-left: 0;
+    padding-right: 0;
+    row-gap: 2rem;
+  }
+  /* network start */
+  #network {
+    margin: 38rem 5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+  .network__item {
+    margin-right: 4rem;
+  }
+  /* network end */
 }
 /* Desktops, large screens: 1025px — 1200px end*/
